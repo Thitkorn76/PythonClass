@@ -1,7 +1,7 @@
 from tkinter import MULTIPLE
 
 
-print("plase select operation \n 1.add \n 2.subtract \n 3.Multiply \n 4.Divide")
+print("plase select operation \n 1.Add \n 2.Subtract \n 3.Multiply \n 4.Divide")
 
 
 opera_tion = int(input("select operations 1, 2, 3, 4, :"))
@@ -22,7 +22,7 @@ elif opera_tion == 3:
 
 elif opera_tion == 4:
     Divide = (first_name / second_number)
-    print(first_name, '/' ,second_number, '=' ,Divide)
+    print(first_name, '//' ,second_number, '=' ,Divide)
 
 else:
     print("Error")
