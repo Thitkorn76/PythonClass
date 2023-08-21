@@ -13,7 +13,7 @@ def main():
         print('ID:', id_name)
         print('Dept:', dept)
 
-    line = emp_filee.readline()
+    line = emp_file.readline()
 
     emp_file.close()
 
